@@ -4,7 +4,7 @@ using BepInEx;
 using UnityEngine;
 using TMPro;
 
-[BepInPlugin("com.pixel.fps", "Pixel FPS HUD", "1.0.0")]
+[BepInPlugin("com.oms.fps", "Fps counter", "1.0.0")]
 public class PixelFPSCounter : BaseUnityPlugin
 {
 	private GameObject canvasObj;
@@ -82,4 +82,5 @@ public class PixelFPSCounter : BaseUnityPlugin
 		fpsText.outlineWidth = 0.25f;
 		fpsText.outlineColor = Color.black;
 	}
+
 }
